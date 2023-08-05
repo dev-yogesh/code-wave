@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <div>
       <form noValidate onSubmit={handleJoin}>
-        <img src="" alt="logo" />
+        <img src='https://placehold.co/100x50' alt="logo" />
         <label htmlFor="room_id">Paste invitaion ROOM ID</label>
         <input id='room_id' ref={roomIdRef} type="text" placeholder='ROOM ID' value={roomId} onChange={(e) => setRoomId(e.target.value)} />
         <input type="text" placeholder='USERNAME' value={username} onChange={(e) => setUsername(e.target.value)} />
